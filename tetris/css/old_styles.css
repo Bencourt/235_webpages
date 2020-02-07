@@ -1,0 +1,30 @@
+h2, h3, h4 {
+    border-bottom: 1px solid red;
+    clear: both;
+}
+body {
+    margin: 2rem;
+}
+#tetlist {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    width: 40%;
+    margin: 2rem;
+}
+#tetlist img{
+    float: right;
+    width: 20%;
+    padding: 1em;
+    border: 1px solid black;
+}
+div.tet{
+    float left;
+    width: 80%;
+    border: 1px solid black;
+}
+footer {
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+}
